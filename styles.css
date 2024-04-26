@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body p {
+  padding: 2rem 10rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+} 
+
+.hero img {
+  width: 200px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons a {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.buttons a:hover {
+  opacity: 0.8;
+}
+
+.buttons a:first-child {
+  background-color: rgb(224, 131, 0);
+}
+
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.roadmap h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(224, 131, 0);
+}
+
+.roadmap p {
+  display: flex;
+  flex-direction: column;
+  margin-top: -8rem;
+  gap: 1rem;
+  padding: 0 3rem;
+}
+
+.roadmap div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 10rem;
+}
+
+.roadmap div img {
+  width: 300px;
+}
